@@ -1,0 +1,66 @@
+#EXTM3U
+
+#Canales de TV y Radios online
+#playlist: elpi.co/playlist
+#cambios: elpi.co/iptv/changelog.txt
+#logos de canales: elpi.co/iptv/logos/
+#ultima actualizacion: 04/03/2016
+
+#EXTINF:-1, tvg-logo="elpi.co/iptv/logos/Chile.png" group-title="Canales Chilenos", -[COLOR red]Canales Chilenos[/COLOR]-
+http://127.0.0.1
+
+#EXTINF:-1,tvg-logo="elpi.co/iptv/logos/megaHD.png" group-title="Canales Chilenos", MEGA (HD)
+http://mdstrm.com/live-stream-playlist/53d2c1a32640614e62a0e000.m3u8
+
+#EXTINF:-1, tvg-logo="elpi.co/iptv/logos/tvn.jpg" group-title="Canales Chilenos", TVN (HD)
+http://tvn-vod.mdstrm.com/tvn-live/_definst_/smil:7cb6048ff45cb5cdf7f5fed828597fd1/chunklist_b1500000.m3u8
+
+#EXTINF:-1, tvg-logo="elpi.co/iptv/logos/chv.png" group-title="Canales Chilenos", CHV (432p)
+http://live.hls.http.chv.ztreaming.com/chvhddesktop/chvHi.m3u8
+
+#EXTINF:-1, tvg-logo="elpi.co/iptv/logos/c13.png" group-title="Canales Chilenos", Canal 13 (540p)
+http://13.live.cdn.cl/13hddesktop/13hd-1250.m3u8
+
+#EXTINF:-1, tvg-logo="elpi.co/iptv/logos/ucv.png" group-title="Canales Chilenos", UCV (HD)
+http://movilstream.digitalproserver.com/ucvtv/ucvtv.smil/playlist.m3u8
+
+#EXTINF:-1, ITV Patagonia
+http://movilstream.digitalproserver.com/itv/itvvivo/itv.smil/playlist.m3u8
+
+#EXTINF:-1, Pingüino Televisión (HD)
+rtsp://streaming.elpinguino.com:1935/live/pinguinotv
+
+#EXTINF:-1, tvg-logo="elpi.co/iptv/logos/laredHD.png" group-title="Canales Chilenos", La Red (HD)
+http://movilstream.digitalproserver.com/redtv/redtvvivo/redtv.smil/playlist.m3u8
+
+#EXTINF:-1, tvg-logo="elpi.co/iptv/logos/Chile.png" group-title="Canales Cable", -[COLOR yelow]Canales Cable[/COLOR]-
+http://127.0.0.1
+
+#EXTINF:-1, tvg-logo="elpi.co/iptv/logos/cdo.png" group-title="Canales Cable", CDO (480p)
+http://wow2.cl.digitalproserver.com/cdo/cdovivo/cdo.smil/chunklist_w913906597_b1064000.m3u8
+
+#EXTINF:-1, tvg-logo="elpi.co/iptv/logos/cdo.png" group-title="Canales Cable", NATIONAL GEOGRAPHIC
+http://iptv.alphacs.tv:8080/live/roja/roja/7377.ts
+
+#EXTINF:-1, radio="true" tvg-logo="elpi.co/iptv/logos/Chile.png" group-title="Radios Chilenas", -[COLOR red]Radios Chilenas[/COLOR]-
+http://127.0.0.1
+
+#EXTINF:-1, radio="true" tvg-logo="" group-title="Radios Chilenas", Pudahuel (90.5 FM)
+http://63.243.143.155/PUDAHUEL_SC
+
+#EXTINF:-1, radio="true" tvg-logo="" group-title="Radios Chilenas", ADN (91.7 FM) (con Video)
+http://movilstream.digitalproserver.com/adn/adnvivo/adn.smil/playlist.m3u8
+
+#EXTINF:-1, radio="true" tvg-logo="" group-title="Radios Chilenas", Tele13 Radio (con Video) (103.3 FM)
+http://cdn.ztreaming.com/t13radio/mobile.m3u8
+
+#EXTINF:-1, radio="true" tvg-logo="" group-title="Radios Chilenas", Radioactiva (92.5 FM)
+http://69.31.54.134/ACTIVAAAC
+
+#EXTINF:-1, radio="true" tvg-logo="" group-title="Radios Chilenas", Bio-Bio la Radio (99.7 FM)
+http://ice.dallas.digitalproserver.com/biostgo
+
+#EXTINF:-1, radio="true" tvg-logo="" group-title="Radios Chilenas", Pingüino Radio (95.3 FM)
+http://streaming.elpinguino.com:8069/pinguino-hi.mp3
+
+
