@@ -27,11 +27,14 @@ http://13.live.cdn.cl/13hddesktop/13hd-1250.m3u8
 #EXTINF:-1, tvg-logo="elpi.co/iptv/logos/ucv.png" group-title="Canales Chilenos", UCV (HD)
 http://movilstream.digitalproserver.com/ucvtv/ucvtv.smil/playlist.m3u8
 
-#EXTINF:-1, ITV Patagonia
-http://movilstream.digitalproserver.com/itv/itvvivo/itv.smil/playlist.m3u8
+#EXTINF:-1, ITV Patagonia (HD)
+http://wow2.cl.digitalproserver.com/itv/itvvivo/livestream1/playlist.m3u8
 
-#EXTINF:-1, Pingüino Televisión (HD)
+#EXTINF:-1 group-title="CHILE",Pinguino TV Punta Arenas
 rtsp://streaming.elpinguino.com:1935/live/pinguinotv
+
+#EXTINF:-1 group-title="CHILE",Pinguino TV Punta Arenas 2
+http://streaming.elpinguino.com:1935/live/pinguinotv_720p/playlist.m3u8
 
 #EXTINF:-1, tvg-logo="elpi.co/iptv/logos/laredHD.png" group-title="Canales Chilenos", La Red (HD)
 http://movilstream.digitalproserver.com/redtv/redtvvivo/redtv.smil/playlist.m3u8
