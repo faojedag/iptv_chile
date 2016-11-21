@@ -9,11 +9,14 @@
 #EXTINF:-1, tvg-logo="elpi.co/iptv/logos/Chile.png" group-title="Canales Chilenos", -[COLOR red]Canales Chilenos[/COLOR]-
 http://127.0.0.1
 
-#EXTINF:-1,tvg-logo="elpi.co/iptv/logos/megaHD.png" group-title="Canales Chilenos", MEGA (HD)
+#EXTINF:-1,tvg-logo="http://i.imgur.com/HN9mYDP.png" group-title="Canales Chilenos", MEGA (HD)
 http://mdstrm.com/live-stream-playlist/53d2c1a32640614e62a0e000.m3u8
 
-#EXTINF:-1, tvg-logo="elpi.co/iptv/logos/tvn.jpg" group-title="Canales Chilenos", TVN (HD)
-http://tvn-vod.mdstrm.com/tvn-live/_definst_/smil:7cb6048ff45cb5cdf7f5fed828597fd1/chunklist_b1500000.m3u8
+#EXTINF:-1,tvg-logo="http://i.imgur.com/HN9mYDP.png" group-title="Canales Chilenos", MEGA (HD) 2
+http://edge-10-ak.mdstrm.com/i/mediastream01_hls@119683/master.m3u8
+
+#EXTINF:-1, tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="Canales Chilenos", TVN (HD)
+http://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?
 
 #EXTINF:-1, tvg-logo="elpi.co/iptv/logos/chv.png" group-title="Canales Chilenos", CHV (432p)
 http://live.hls.http.chv.ztreaming.com/chvhddesktop/chvHi.m3u8
@@ -27,7 +30,7 @@ http://movilstream.digitalproserver.com/ucvtv/ucvtv.smil/playlist.m3u8
 #EXTINF:-1, ITV Patagonia
 http://movilstream.digitalproserver.com/itv/itvvivo/itv.smil/playlist.m3u8
 
-#EXTINF:-1, Pingüino Televisión (HD)
+#EXTINF:-1, PingÃ¼ino TelevisiÃ³n (HD)
 rtsp://streaming.elpinguino.com:1935/live/pinguinotv
 
 #EXTINF:-1, tvg-logo="elpi.co/iptv/logos/laredHD.png" group-title="Canales Chilenos", La Red (HD)
@@ -60,7 +63,7 @@ http://69.31.54.134/ACTIVAAAC
 #EXTINF:-1, radio="true" tvg-logo="" group-title="Radios Chilenas", Bio-Bio la Radio (99.7 FM)
 http://ice.dallas.digitalproserver.com/biostgo
 
-#EXTINF:-1, radio="true" tvg-logo="" group-title="Radios Chilenas", Pingüino Radio (95.3 FM)
+#EXTINF:-1, radio="true" tvg-logo="" group-title="Radios Chilenas", PingÃ¼ino Radio (95.3 FM)
 http://streaming.elpinguino.com:8069/pinguino-hi.mp3
 
 
